@@ -33,10 +33,13 @@ public class Main {
 //        sellerDao.insert(newSeller);
 //        System.out.println("Inserted! New id = " + newSeller.getId());
 
-        System.out.println("\n==== TEST 5: seller update ====");
-        seller = sellerDao.findById(1);
-        seller.setEmail("Bob Brown");
-        seller.setEmail("bob@gmail.com");
-        sellerDao.update(seller);
+//        System.out.println("\n==== TEST 5: seller update ====");
+//        seller = sellerDao.findById(1);
+//        seller.setEmail("Bob Brown");
+//        seller.setEmail("bob@gmail.com");
+//        sellerDao.update(seller);
+
+        System.out.println("\n==== TEST 6: delete seller ====");
+//        sellerDao.deleteById(9);
     }
 }
